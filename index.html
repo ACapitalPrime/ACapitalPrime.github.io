@@ -3,7 +3,7 @@
     
     <head>
         <meta charset="utf-8"/>
-        <title>[ Embedded Artificial Intelligence Lab ]</title>
+        <title>[ Demetris Zeinalipour @ UCY ]</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         
         <!-- Font Awesome Icons -->
@@ -49,14 +49,21 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <span><a href="#"><img border="0" width="200" src="images/logo.png"/></a>    Embedded Artificial Intelligence Lab</span>
+                    <span><a href="#"><img border="0" width="120px" src="images/logo.png"/></a></span>
                 </div>
                 
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-intro-content').show();" href="#intro">Introduction</a>
+                        <li class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                Home<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a onclick="javascript:reset_menus();$('#tab-intro-content').show();" href="#intro">Introduction</a></li>
+                                <!-- <li><a href="bio.html">Biography</a></li>
+                                <li><a href="cv.html">CV (Web)</a></li>
+                                <li><a target="_blank" href="zeinalipour.pdf">CV (PDF)</a></li> -->
+                            </ul>
                         </li>
                         <li class="page-scroll">
                             <a onclick="javascript:reset_menus();$('#tab-news-content').show();" href="#news">News</a>
@@ -72,19 +79,22 @@
                         <li class="page-scroll">
                             <a onclick="javascript:reset_menus();$('#tab-awards-content').show();" href="#awards">Awards</a>
                         </li>
-						<li class="page-scroll">
-							<a onclick="javascript:reset_menus();$('#tab-teachers-content').show();" href='#teacher'>Teachers</a>
-						</li>
-                        <li class="dropdown">
-                            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                Students<span class="caret"></span></a>
-                            <ul class="dropdown-menu">
-                                <li><a onclick="javascript:reset_menus();$('#tab-advising-content').show();" href="#advising">Ongoing Students</a></li>
-                                <li><a href="students.html">All Students</a></li>
-                            </ul>
+                        <!-- <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-courses-content').show();" href="#courses">Courses</a>
                         </li>
                         <li class="page-scroll">
-							<a onclick="javascript:reset_menus();$('#tab-activities-content').show();" href="#activities">Activities</a>
+                            <a onclick="javascript:reset_menus();$('#tab-systems-content').show();" href="#systems">Systems</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-service-content').show();" href="#service">Service</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-advising-content').show();" href="#advising">Advising</a>
+                        </li> -->
+                        
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-contact-content').show();" href="#contact">Contact</a>
+                        </li>
                         <li class="page-scroll">
                             <a onclick="javascript:reset_menus();$('#bs-example-navbar-collapse-2').toggle();">
                                 <span class="glyphicon glyphicon-search"></span>
@@ -110,28 +120,47 @@
         <section  name="home" id="home" style="margin-top:40px">
             <div class="container">
                 <div align="left" class="col-md-3">
-                    <a target="_blank" href="images/logo.png">
-                        <img id="mobile-img" src="images/ologo.png" width="200" border="0" height="200" alt=""></a>
+                    <a target="_blank" href="images/taobig.jpg">
+                        <img id="mobile-img" src="images/taobig.jpg" width="200" border="0" height="250" alt=""></a>
                 </div>
                 <div align="left" class="col-md-4">
-                    <h2>Embedded Artificial Intelligence Lab
+                    <h2>Xiyuan Tao(陶希远)
+                        <h5><i>PhD Candidate, South China University of Technology, CHINA, 2021</i></h5>
                     </h2>
                     
+                    <h4>PhD Candidate<br>
+                        <a href="http://www2.scut.edu.cn/ee/">School of Electronic and Information Engineering</a><br>
+                        <a href="https://www.scut.edu.cn/">South China University of Technology</a><br>
                         Email:
                         <script language="JavaScript">
-                            <!--
                             document.write("&nbsp;");
-                            spiderjam('bupt_eai','foxmail.com');
-                            -->
+                            spiderjam('maxytao','mail.scut.edu.cn');
                             </script><br/>
-
-						Location: Research Building 416, <br />
-						No. 10, Xi Tu Cheng Road, <br />
-						Beijing <br />
-						China, 100876
+                        QQ: 429477194
+                        <!-- Lab: <a target="_blank" href="https://dmsl.cs.ucy.ac.cy/">http://dmsl.cs.ucy.ac.cy/</a><br>
+                        Directions: <a target="_blank" href="https://goo.gl/FQCHMl">http://goo.gl/FQCHMl</a> -->
+                    </h4>
+                    <h4><i>Expertise: Computer Vision &amp; Data Mining</i> <a href="#intro" onclick="javascript:reset_menus();$('#tab-intro-content').show();" class="btn-primary btn-xs">&raquo;</a><br></h4>
+                    
                 </div>
                 
-                </i>
+                <!-- twitter界面 -->
+                <!-- <i class="twittertop" style="display:none;" id="t1">
+                    <div id="news" tyle="text-align: left"  class="col-md-5">&nbsp;
+                        <center><a class="twitter-timeline" href="https://twitter.com/dmslucy" data-chrome="nofooter" data-widget-id="346662554203992065" data-width="900"
+                            data-height="300">Tweets
+                            by @dmslucy</a>
+                        <script>!function (d, s, id) {
+                            var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                            if (!d.getElementById(id)) {
+                                js = d.createElement(s);
+                                js.id = id;
+                                js.src = p + "://platform.twitter.com/widgets.js";
+                                fjs.parentNode.insertBefore(js, fjs);
+                            }
+                        }(document, "script", "twitter-wjs");</script></center>
+                    </div>
+                </i> -->
                 
                 <!--<p><a href="#" class="btn btn-primary">More &raquo;</a></p>-->
                 <b class="expandshow" style="display:none;" id="tab-1">
@@ -144,7 +173,7 @@
             </div>
         </section>
         
-        <!-- Introduction Section -->
+        <!-- intro -->
         <section name="intro" id="intro">
             <div class="container lead">
                 <div style="text-align: left; margin-top:10px" class="col-md-12">
@@ -156,40 +185,56 @@
                     
                     <div class="allshow" style="display:none;" id="tab-intro-content">
                         <hr class="star-primary">
-
-                        <h2> Introduction </h2>
                         
                         <p class="lead">
-                        Embedded Artificial Intelligence Lab is a research team focusing on machine auditory with hardware implementations. Relavent research topics includes acoustic signal processing, computational musicology, deep learning algorithm simplification and deep learning algorithm solution with FPGA.   
+                        Xiyuan Tao is a PhD Candidate. He got a BS degree from from <a target="_blank" href="https://www.scut.edu.cn/">South China University of Technology</a> in 2019. He has been taking successive postgraduate and doctoral programs of study for doctoral degree since September 2021. He is currently pursuing the Ph.D. degree in information and communication engineering from <a target="_blank" href="https://www.scut.edu.cn/">South China University of Technology</a>, China.
+                        
                         </p>
+                        <p>
+                        His primary research interests include <b>Computer Vision and Data Mining</b>, particularly <i>multi-view subspace clustering;video quality assessment.</i>
+                        
+                        <!-- 个人cv -->
+                        <!-- <p><a href="bio.html" class="btn-sm btn-primary">Biography &raquo;</a>
+                        <a href="cv.html" class="btn-sm btn-primary">CV (Web)&raquo;</a>
+                        <a href="zeinalipour.pdf" class="btn-sm btn-primary">CV (PDF)&raquo;</a> -->
                     </div>
                     
                 </div>
             </div>
         </section>
         
-        <!-- News Section -->
-        <section  name="news"  id="news">
-            <div class="container lead">
-                <div style="text-align: left; margin-top:10px" class="col-md-12">
-                    <b class="noshow" style="display:none;" id="tab-2">
-                        <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-news-content').toggle();">News  <span class="glyphicon glyphicon-chevron-down"></span></button>
-                    </b>
-                    <div class="allshow" style="display:none;" id="tab-news-content">
-                        <hr class="star-primary">
-                            <h2>News    <a href="news.html" class="btn btn-primary">All News &raquo;</a></h2>
-                            <p>08 Nov 2019: Yinji Jing and Yusong Wu present late breaking demos on ISMIR 2019.</p>
-                            <p>30 Oct 2019: Shengchen Li gives a seminar in C4DM, Queen Mary University of London.</p>
-                            <p>17 Sep 2019: A new version of student handbook has been released.</p>
-                            <p>03 Sep 2019: A pooling game is organised as a welcome reception of new students.</p>
-                            <p>16 Jul 2019: Shengchen Li has taught Machine Auditory jointly with <a href="http://www.eecs.qmul.ac.uk/~gyorgyf/">George Fazekas</a> in BUPT summer school.</p>
-                            <p>29 Jun 2019: A joint research team including the participation of EAI people wins the <a target="_blank" href="http://dcase.community/challenge2019/task-acoustic-scene-classification-results-c">DCASE Challenge 2019 Task 1C</a>.</p>
-                        <p></p>
-                        <p><a href="news.html" class="btn btn-primary">All News &raquo;</a></p>
+        <!-- twitter手机界面 -->
+        <!-- <div class="twitterlow" style="display:none;" id="t1">
+            <section  name="news"  id="news">
+                <div class="container lead">
+                    <div style="text-align: left; margin-top:10px" class="col-md-12">
+                        
+                        <b class="noshow" style="display:none;" id="tab-2">
+                            <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-news-content').toggle();">News  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                        </b>
+                        <b class="allshow" style="display:none;" id="tab-news-content">
+                            
+                            <hr class="star-primary">
+                            
+                            <h2>News</h2>
+                            <center><a class="twitter-timeline" href="https://twitter.com/dmslucy" data-chrome="nofooter" data-widget-id="346662554203992065">Tweets
+                                by @dmslcy</a>
+                            <script>!function (d, s, id) {
+                                var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                                if (!d.getElementById(id)) {
+                                    js = d.createElement(s);
+                                    js.id = id;
+                                    js.src = p + "://platform.twitter.com/widgets.js";
+                                    fjs.parentNode.insertBefore(js, fjs);
+                                }
+                            }(document, "script", "twitter-wjs");
+                            </script>
+                            </center>
+                        </b>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div> -->
         
         <!-- Research Section -->
         <section  name="publications" id="publications">
@@ -202,14 +247,36 @@
                     <div class="allshow" style="display:none;" id="tab-publications-content">
                         <hr class="star-primary">
                         
-                        <h2>Selected Publications <a href="publications.html" class="btn btn-primary">All Publications &raquo;</a></h2>
+                        <h2>Selected Publications <a href="publications.html" class="btn btn-primary">All Publications&raquo;</a></h2>
+                        <h4>
+                            <span class="label label-warning">
+                                <a target="_blank" href="https://en.wikipedia.org/wiki/H-index"><font color=white>h-index</font></a>: 0
+                            </span>&nbsp;
+                            <span class="label label-warning">
+                                <a target="_blank" href="https://scholar.google.com/Citations"><font color=white>Citations</font></a>: 0
+                            </span>&nbsp;
+                            <span class="label label-warning">
+                                <a target="_blank" href="https://en.wikipedia.org/wiki/Erd&ouml;s_number"><font color="white">Erd&ouml;s #</font></a>: 0
+                            </span>&nbsp;
+                            <span class="label label-default">
+                                <a target="_blank" href="https://orcid.org"><font color="white">ORCID</font></a>
+                            </span>&nbsp;
+                            <span class="label label-default">
+                                <a target="_blank" href="https://www.scopus.com"><font color="white">Scopus</font></a>
+                            </span>&nbsp;
+                            <span class="label label-default">
+                                <a target="_blank" href="https://www.researcherid.com"><font color="white">ResearcherID</font></a>
+                            </span>
+                            
+                            
+                        </h4>
                         <ul>
-                            <li><span class="label label-success">ICME 2019</span> "SVD-Based Channel Pruning for Convolutional Neural Network in Acoustic Scene Classification Model", Jun Wang, Shengchen Li, Wenwu Wang, Proceedings of the <b>IEEE International Conference on Multimedia and Expo (ICME 2019)</b>, IEEE, Shanghai, China, 8-12 July 2019. </li>
-                            <li><span class="label label-success">ICASSP 2019</span> <a target="_blank" href="https://ieeexplore.ieee.org/document/8683627">"Sound Event Detection with Sequentially Labelled Data based on Connectionist Temporal Classification and Unsupervised Clustering"</a>, Yuanbo Hou, Qiuqiang Kong, Shengchen Li, Mark D. Plumbley, Proceedings of the <b>44th IEEE International Conference on Acoustic, Speech and Signal Processing (ICASSP'19)</b>, IEEE Signal Processing Society, Brighton, United Kingdom, 12-17 May 2019. </li>
-                            <li><span class="label label-success">Application of Electronic Technique</span> <a target="_blank" href="http://www.dzjy.cbpt.cnki.net/WKE/WebPublication/index.aspx?mid=DZJY">"A low power and high speed decoder design based on FPGA"</a>, Songjiang Zhou, Shengchen Li, Ming Liu, <b>Application of Electronic Technique</b>, 2018,44(04):27-32.</li>
-                            <li><span class="label label-success">ICASSP 2018</span> <a target="_blank" href="https://ieeexplore.ieee.org/document/8461713">"Comparing the Influence of Depth and Width of Deep Neural Network Based on Fixed Number of Parameters for Audio Event Detection"</a>, Jun Wang, Shengchen Li, Proceedings of the <b>43rd IEEE International Conference on Acoustic, Speech and Signal Processing (ICASSP'18)</b>, IEEE Signal Processing Society, Calgary, Canada, 15-20 April 2018. </li>
-                        <p><a href="publications.html" class="btn btn-primary">All Publications &raquo;</a></p>
+                            <li><span class="label label-success">IEEE CVPR'19</span> <a target="_blank" href="#">"Fake title"</a>,John Doe, Proceedings of the <b>35th IEEE International Conference on Data Engineering (ICDE'19)</b>, IEEE Computer Society, Macau SAR, China, 8-12 April 2019. <font color="red">(accepted!)</font></li>
+                            </li>
+                          
                         </ul>
+                        <p><a href="publications.html" class="btn btn-primary">All Publications &raquo;</a>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -217,7 +284,7 @@
         
     
  
-         <!-- Awards Section -->
+         <!-- Courses Section -->
          <section  name="awards" id="awards">
              <div class="container lead">
                  <div style="text-align: left; margin-top:10px" class="col-md-12">
@@ -228,85 +295,155 @@
                      <div class="allshow" style="display:none;" id="tab-awards-content">
                          
                          <hr class="star-primary">
-                         <h2>Awards and Honors </h2>
+                         <h2>Awards and Honors <a href="" class="btn btn-primary">More &raquo;</a></h2>
                          <ul>
                              <li>
-                                 <span class="label label-success">CSMT 2018</span> Shengchen LI, Scholar Contribution Award, 6th Conference on Sound and Music Technology
-                             </li>
-                             <li>
-                                 <span class="label label-success">DCASE 2019</span> Houwei Zhu, Chunxia Ren et al., Winner, IEEE AASP Challenge on Detection and Classification on Acoustic Scenes and Events, Task 1C (Acoustic scences identification, open-set challenge).
+                                 <span class="label label-success">CPGMCM'20</span> <a target="_blank" href="https://cpipc.acge.org.cn/cw/hp/4">Second Prize</a>,  "Huawei Cup" 17th China Post-Graduate Mathematical Contest in Modeling</span>
                              </li>
                          </ul>
                      </div>
                  </div>
              </div>
          </section>
-		
-		<!-- Teacher Section -->
-		<section name="teacher" id="teacher">
-			<div class="container lead">
-				<div style="text-align: left; margin-top:10px" class="col-md-12">
-					<b class="noshow" style="display:none;" id="tab-7">
-						<button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-teachers-content').toggle();">Teachers <span class="glyphicon glyphicon-chevron-down"></span></button>
-					</b>
-					<div class="allshow" style="display:none;" id="tab-teachers-content">
-						<hr class="star-primary">
-						<h2> Teachers </h2>
-						<ul>
-							<li>
-								Prof. LIU Ming
-							</li>
-							<li>
-                                <a target="_blank" href="https://shengchenli.github.io">Dr. LI Shengchen </a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</section>
 
 
-        <!-- Student Section -->
-        <section name="advising" id="advising">
+        <!-- Courses Section -->
+        <!-- <section  name="courses" id="courses">
             <div class="container lead">
                 <div style="text-align: left; margin-top:10px" class="col-md-12">
                     
-                    <b class="noshow" style="display:none;" id="tab-8">
-                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-advising-content').toggle();">Advising  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    <b class="noshow" style="display:none;" id="tab-5">
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-courses-content').toggle();">Courses  <span class="glyphicon glyphicon-chevron-down"></span></button>
                     </b>
-                    <div class="allshow" style="display:none;" id="tab-advising-content">
+                    <div class="allshow" style="display:none;" id="tab-courses-content">
+                        <hr class="star-primary">
+                        <h2>Courses <a href="cv.html#SECTION000110000000000000000" class="btn btn-primary">More &raquo;</a></h2>
+                        <ul>
+                            <li><span class="label label-success">EPL646</span> <a href="https://www.cs.ucy.ac.cy/~dzeina/courses/epl646/">Advanced Topics in Databases</a> (Winter)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        
+         
+        
+        <!-- Home Section -->
+        <section name="links" id="links">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-9">
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-links-content').toggle();">Links  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    
+                    <div class="allshow" style="display:none;" id="tab-links-content">
                         
                         <hr class="star-primary">
-                        <h2>Students <a href="students.html" class="btn btn-primary">All Students &raquo;</a></h2>
+                        <h2>Random Links</h2>
                         <ul>
-                            <li><span class="label label-success">PhD2018</span> <a target="_blank" href="students/jyj.html">JING Yinji</a> works on automated music composition.</li>
-                            <li><span class="label label-success">MPhil2018</span> <a target="_blank" href="students/rcx.html">REN Chunxia</a> works on classification of acoustic scenes.</li>
-                            <li><span class="label label-success">MEng2017</span> <a target="_blank" href="students/lzm.html">LI Ziming</a> works on music similarity research</li>
-							<li><span class="label label-success">MEng2017</span> <a target="_blank" href="students/zhy.html">Zhang Hanyu</a> works on feature extraction based on wavelet transform</li>
-                            <li><span class="label label-success">BEng2016</span> <a target="_blank" href="https://lukewys.github.io">WU Yusong</a> works on automatic music generation on symbolic music.</li>
-                            <p></p>
-                            <p><a href="students.html" class="btn btn-primary">All Students &raquo;</a>
-                        </p>
+                            <li><span class="label label-success"><a target="_blank" href=""><font color="white">Apple</font></a></span> 
+                            An apple a day keeps the <a target="_blank" href="">doctor</a> away.
+                            </li>
+                            <li><span class="label label-default"><a target="_blank" href=""><font color="white">Banana</font></a></span> 
+                            
+                            </li>
+
+                            <li><span class="label label-info"><a target="_blank" href=""><font color="white">Cerry</font></a></span> 
+                            </li>
+
+                            <li><span class="label label-danger"><a target="_blank" href=""><font color="white">Date</font></a></span> 
+                            </li>
+
+                            <li><span class="label label-primary"><a target="_blank" href=""><font color="white">E</font></a></span> 
+                            </li>
+                            <li><span class="label label-warning"><a target="_blank" href=""><font color="white">F</font></a></span> 
+                            </li>
+
                         </ul>
                     </div>
                 </div>
             </div>
         </section>
         
-        <!-- Activities Section -->
-    	<!--
-                            <li><span class="label label-default"><a target="_blank" href="http://www.homepages.ucl.ac.uk/~uccazei/"><font color="white">Brother</font></a></span> My brother's website at UCL, UK.</li>
-                            <li><span class="label label-info"><a target="_blank" href="https://smartlib.cs.ucy.ac.cy/scripts/exportBooks.php?mykey=0a05bb77edad7395da818f361f8115a2"><font color="white">Books</font></a></span> My book collection constructed using our <a target="_blank" href="https://smartlib.cs.ucy.ac.cy/">SmartLib project.</a></li>
-                            <li><span class="label label-danger"><a target="_blank" href="https://code.org/learn"><font color="white">Hour-of-Code</font></a></span> I support the hour of code iniative as a volunteer instructor.</a></li>
-                            <li><span class="label label-primary"><a target="_blank" href="https://github.com/dmsl"><font color="white">Github</font></a></span> I support open-source code development.</a></li>
-                            <li><span class="label label-warning"><a target="_blank" href="http://www.kyreniaship.org/"><font color="white">Kyrenia-Chrysocava</font></a></span> A project aimed to preserve the cultural heritage of the <a target="_blank" href="https://en.wikipedia.org/wiki/Kyrenia_ship">Kyrenia ship</a>.</li>
-                            <li><span class="label label-success"><font color="white">Cycling</font></span> My favorite hobby besides programming :-)</a></li>
-							-->
+        <!-- contact -->
+        <section  name="contact" id="contact">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-10">
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-contact-content').toggle();">Contact  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    <div class="allshow" style="display:none;" id="tab-contact-content">
+                        
+                        <hr class="star-primary">
+                        <h2>Contact</h2>
+                        <div class="container lead">
+                            <div align="left" class="col-md-3">
+                                <h4 class="myEN">
+                                    POSTAL ADDRESS (EN | <a target="_blank" onclick="javascript:$('.myEN').hide();$('.myCN').show();">中文</a>)
+                                </h4>
+                                
+                                <h4 class="myCN" style="display:none">
+                                    通信地址 (<a target="_blank" onclick="javascript:$('.myEN').show();$('.myCN').hide();">EN</a> | 中文)
+                                </h4>
+                                
+                                <p class="myCN" style="display:none">
+                                陶希远<br>
+                                励吾科技楼<br>
+                                华南理工大学<br>
+                                五山街道，天河区<br>
+                                广州，中国<br>
+                                </p>
+                                
+                                <p class="myEN">
+                                Xiyuan Tao<br>
+                                Liwu Technology Building<br>
+                                South China University of Technology<br>
+                                WuShan Street,TianHe District<br>
+                                Guangzhou, China<br>
+                                </p>
+                                Email:
+                                <script language="JavaScript">
+                                    document.write("&nbsp;");
+                                    spiderjam('maxytao','mail.scut.edu.cn');
+                                    </script><br>
+                            </div>
+                            
+
+                            
+                            <!-- <div align="left" class="col-md-3">
+                                <h4>OFFICE ADDRESS</h4>
+                                <p>B106, Computer Science,<br/>
+                                Building FST-01,<br/>
+                                1 University Avenue,<br/>
+                                2109 Aglantzia, CYPRUS<br/>
+                                Tel: <a href="tel:0035722892755">+357-22892755</a><br/>
+                                Fax: <a href="tel:0035722892701">+357-22892701</a><br/>
+                                <br/>
+                                </p>
+                            </div> -->
+                            
+                            <div align="right" class="col-md-3">
+                                <p><a href="https://www.scut.edu.cn" target="_blank"><img src="images/band.jpg" border="0"
+                                    width="150">
+                                </p>
+                            </div>
+                            <div align="right" class="col-md-3">
+                                <p><a href="https://www.scut.edu.cn" target="_blank"><img src="images/moto.jpg" border="0" width="250">
+                                </p>
+                            </div>
+                        </div>
+                        <hr class="star-primary">
+                    </div>
+                    <a href="http://www2.scut.edu.cn/ee"><img src="images/eelogo.png" border="0" width="300">
+                    </section>
+        
         <hr class="star-primary">
         <footer>
             <small>
                 <center>
-                    © 2019 | Embedded Artificial Intelligence Lab. Credits: AR template
+                    © 2019 | D. Zeinalipour. Credits: AR template
                     <a onclick="javascript:$('#credit').toggle();"><img border="0" src="images/ccby.png"/></a>
                     <div style="display:none;" id="credit">[AR template available under Creative Commons CC BY 4.0 licence:
                         <a href="https://github.com/dmsl/academic-responsive-template" target="_blank">
